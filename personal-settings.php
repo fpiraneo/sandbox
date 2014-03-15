@@ -18,7 +18,7 @@
  * along with sandbox.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-OCP\User::checkAdminUser();
+OCP\User::checkLoggedIn();
 
 // Handle translations
 $l = new \OC_L10N('sandbox');
